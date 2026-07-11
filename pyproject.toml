@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "combcount"
+version = "0.1.0"
+description = "Interactive computer vision script for semi-automated extraction of statistics from honeycomb images"
+authors = ["Jake Bruce", "Théotime Colin"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.21.0"
+opencv-python = "^4.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
